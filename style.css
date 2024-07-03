@@ -28,7 +28,7 @@ label {
     margin-right: 10px;
 }
 
-#calcular {
+#f1calcular {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -36,7 +36,7 @@ label {
     cursor: pointer;
 }
 
-#resultado {
+#f1resultado {
     font-weight: bold;
     margin-top: 20px;
 }
