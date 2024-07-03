@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    display: flex; /* Enable flexbox for body */
+    flex-direction: column;
+    align-items: center; /* Align vertically */
+    justify-content: center; /* Align horizontally */
+    min-height: 100vh; /* Set minimum height to cover entire viewport */
+    margin: 0; /* Remove default body margins */
+}
+
+form {
+    background-color: #fff; /* Add background color for form */
+    padding: 20px;
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Other CSS styles (from previous examples) */
+
+.opcoes {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#calcular {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+}

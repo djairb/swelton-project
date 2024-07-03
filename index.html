@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Pontuação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cálculo de Pontuação</h1>
+
+    <form id="formulario">
+        <p>1) Tenho medo de me machucar, se eu fizer exercícios</p>
+        <div class="opcoes">
+            <input type="radio" id="exercicio-concorda" name="exercicio" value="10">
+            <label for="exercicio-concorda">Concordo</label>
+            <input type="radio" id="exercicio-discorda" name="exercicio" value="5">
+            <label for="exercicio-discorda">Discordo</label>
+            <input type="radio" id="exercicio-incerto" name="exercicio" value="3">
+            <label for="exercicio-incerto">Não tenho certeza</label>
+        </div>
+
+        <p>2) Se eu tentasse superar esse medo, minha dor aumentaria</p>
+        <div class="opcoes">
+            <input type="radio" id="dor-concorda" name="dor" value="10">
+            <label for="dor-concorda">Concordo</label>
+            <input type="radio" id="dor-discorda" name="dor" value="5">
+            <label for="dor-discorda">Discordo</label>
+            <input type="radio" id="dor-incerto" name="dor" value="3">
+            <label for="dor-incerto">Não tenho certeza</label>
+        </div>
+
+        <p>3) Meu corpo está dizendo que alguma coisa muito errada está acontecendo comigo</p>
+        <div class="opcoes">
+            <input type="radio" id="corpo-concorda" name="corpo" value="10">
+            <label for="corpo-concorda">Concordo</label>
+            <input type="radio" id="corpo-discorda" name="corpo" value="5">
+            <label for="corpo-discorda">Discordo</label>
+            <input type="radio" id="corpo-incerto" name="corpo" value="3">
+            <label for="corpo-incerto">Não tenho certeza</label>
+        </div>
+
+        <button type="button" id="calcular">Calcular</button>
+
+        <p id="resultado">Sua pontuação: 0</p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
