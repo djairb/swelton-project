@@ -42,7 +42,7 @@ label {
     margin-right: 10px;
 }
 
-#f1calcular {
+#f1calcular, #f2calcular {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -50,15 +50,15 @@ label {
     cursor: pointer;
 }
 
-#f1resultado {
+#f1resultado, #f2resultado {
     font-weight: bold;
     margin-top: 20px;
 }
 
 .divLinha{
 
-    width: 80%;
-    background-color: blue;
-    height: 3px;
+    width: 95%;
+    background-color: black;
+    height: 2px;
     margin: 10px 0;
 }
