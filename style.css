@@ -6,17 +6,25 @@ body {
     justify-content: center; /* Align horizontally */
     min-height: 100vh; /* Set minimum height to cover entire viewport */
     margin: 0; /* Remove default body margins */
+    margin-top: 20px;
+    gap: 20px;
+    width: 100%;
+}
+
+body h1{
+    margin: 0 auto;
 }
 
 form {
     background-color: #fff; /* Add background color for form */
-    padding: 20px;
+    padding: 0 20px;
     border-radius: 5px; /* Add rounded corners */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    width: 80%;
     
 }
 
@@ -42,7 +50,7 @@ label {
     margin-right: 10px;
 }
 
-#f1calcular, #f2calcular {
+#f1calcular, #f2calcular, #f3calcular {
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
@@ -50,15 +58,33 @@ label {
     cursor: pointer;
 }
 
-#f1resultado, #f2resultado {
+#f1resultado, #f2resultado, #f3calcular {
     font-weight: bold;
     margin-top: 20px;
 }
 
 .divLinha{
 
-    width: 95%;
+    width: 80%;
     background-color: black;
     height: 2px;
-    margin: 10px 0;
+    margin-top: 10px;
 }
+
+.h3Form{
+
+    width: 80%;
+    text-align: justify;
+    font-weight: normal;
+    margin: 0 auto;
+    
+
+
+}
+
+.h3Form a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
