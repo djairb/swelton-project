@@ -15,14 +15,28 @@ form {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
+    
+}
+
+form p{
+
+    font-weight: bold;
 }
 
 /* Other CSS styles (from previous examples) */
 
 .opcoes {
-    margin-bottom: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
 }
+
+
 
 label {
     margin-right: 10px;
@@ -39,4 +53,12 @@ label {
 #f1resultado {
     font-weight: bold;
     margin-top: 20px;
+}
+
+.divLinha{
+
+    width: 80%;
+    background-color: blue;
+    height: 3px;
+    margin: 10px 0;
 }
