@@ -13,6 +13,7 @@ body {
 
 body h1{
     margin: 0 auto;
+    text-align: center;
 }
 
 form {
@@ -88,3 +89,29 @@ label {
     color: black;
 }
 
+.f3Div{
+    display: flex;
+    align-items: center;
+    
+}
+
+.f3Div .f3Div02 p{
+
+    word-wrap: break-word;
+    
+    text-align: center;
+}
+
+
+.f3Div .f3Div01{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    
+}
+
+
+form .q5space{
+    margin-bottom: 30px;
+}

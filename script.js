@@ -176,6 +176,15 @@ function f3calcularPontuacao() {
   const f3q11 = document.querySelector('input[name="f3q11"]:checked');
   const f3q12 = document.querySelector('input[name="f3q12"]:checked');
   const f3q13 = document.querySelector('input[name="f3q13"]:checked');
+  const f3q14 = document.querySelector('input[name="f3q14"]:checked');
+  const f3q15 = document.querySelector('input[name="f3q15"]:checked');
+  const f3q16 = document.querySelector('input[name="f3q16"]:checked');
+  const f3q17 = document.querySelector('input[name="f3q17"]:checked');
+  const f3q18 = document.querySelector('input[name="f3q18"]:checked');
+  const f3q19 = document.querySelector('input[name="f3q19"]:checked');
+  const f3q20 = document.querySelector('input[name="f3q20"]:checked');
+  const f3q21 = document.querySelector('input[name="f3q21"]:checked');
+  const f3q22 = document.querySelector('input[name="f3q22"]:checked');
  
 
   // Check if any option is selected and add points accordingly
@@ -217,6 +226,41 @@ function f3calcularPontuacao() {
   }
   if (f3q13) {
     pontuacao3 += parseInt(f3q13.value);
+  }
+  if (f3q14) {
+    pontuacao3 += parseInt(f3q14.value);
+  }
+
+  if (f3q15) {
+    pontuacao3 += parseInt(f3q15.value);
+  }
+
+  if (f3q16) {
+    pontuacao3 += parseInt(f3q16.value);
+  }
+
+  if (f3q17) {
+    pontuacao3 += parseInt(f3q17.value);
+  }
+
+  if (f3q18) {
+    pontuacao3 += parseInt(f3q18.value);
+  }
+
+  if (f3q19) {
+    pontuacao3 += parseInt(f3q19.value);
+  }
+
+  if (f3q20) {
+    pontuacao3 += parseInt(f3q20.value);
+  }
+
+  if (f3q21) {
+    pontuacao3 += parseInt(f3q21.value);
+  }
+
+  if (f3q22) {
+    pontuacao3 += parseInt(f3q22.value);
   }
   // Update the result element with the calculated score
   f3resultado.textContent = `Sua pontuação: ${pontuacao3}`;
